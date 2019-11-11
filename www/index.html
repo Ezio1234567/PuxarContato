@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css"> -->
+        <title>Cordova - Contatos</title>
+		<style> body {background-color: #ffff00; }</style>
+    </head>
+    <body>
+        <div class="app">
+            <h1>cordova-plugin-contacts</h1>
+            <button type="button" id="bntSelContato" >Selecionar Contato</button><p></p>
+            <button type="button" id="bntShowContact" >Mostrar Contato Selecionado</button><p></p>
+
+            <span id="contactName">Nome do Contato:</span><p></p>
+            <img id="contactImg" alt="Image Not Found"></img><p></p>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
